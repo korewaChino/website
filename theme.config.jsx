@@ -15,9 +15,9 @@ export default {
 
   footer: (
     <small style={{ fontSize: '14px',display:'block',marginTop:'6rem',display:'flex' }}>
-      <span><time>{YEAR}</time> © Ninad Vyas</span>
+      <span><time>{YEAR}</time> © Cappy Ishihara</span>
 
-        <div className='footicon'>
+        {/* <div className='footicon'>
           <a href="https://www.linkedin.com/in/ninad-vyas-b767491a3/" className='footiconin'>
            <a className='icon1'>
             <FaHandshake
@@ -32,7 +32,7 @@ export default {
 
 
          
-        </div>
+        </div> */}
 
       <style jsx>{`
         a {
@@ -50,10 +50,10 @@ export default {
   components: {
     logo: (
       <>
-        <span>Ninad Vyas</span>
+        <span>Cappy Ishihara</span>
       </>
     ),
-    titleSuffix: "Ninad Vyas ",
+    titleSuffix: "Cappy Ishihara ",
   },
   darkMode: false
 }
