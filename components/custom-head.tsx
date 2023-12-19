@@ -3,12 +3,12 @@ import React from 'react';
 
 const Head = ({ meta }: { meta: { title: string; description: string; image: string } }) => {
   // Site info
-  const Site = `Ninad Vyas`
+  const Site = `Cappy's Site`
 
   // Get router
   const router = useRouter()
   const canonicalUrl = (
-    `https://blog.aozaki.cc` + (router.asPath === '/' ? '' : router.asPath)
+    `https://cappuchino.xyz` + (router.asPath === '/' ? '' : router.asPath)
   ).split('?')[0]
 
   // Get Current Title
@@ -20,7 +20,7 @@ const Head = ({ meta }: { meta: { title: string; description: string; image: str
       <meta name="robots" content="noodp" />
       <title>{currentTitle}</title>
       <meta name="title" content={currentTitle} />
-      <meta name="author" content="Aozaki" />
+      <meta name="author" content="Cappy Ishihara" />
       <meta name="description" content={meta.description} />
       <link rel="canonical" href={canonicalUrl} />
 

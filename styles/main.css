@@ -190,7 +190,7 @@ h2 {
 .recommendation-item,
 .testimonial-item1 {
   text-align: center;
-  background-image: url(4.jpg);
+  /* background-image: url(4.jpg); */
   padding: 20px;
   width: 350px;
   height: 200px;
@@ -201,7 +201,7 @@ h2 {
 .recommendation-item,
 .testimonial-item2 {
   text-align: center;
-  background-image: url(3.jpg);
+  /* background-image: url(3.jpg); */
   padding: 20px;
   width: 350px;
   height: 200px;
@@ -212,7 +212,7 @@ h2 {
 .recommendation-item,
 .testimonial-item3 {
   text-align: center;
-  background-image: url(2.jpg);
+  /* background-image: url(2.jpg); */
   padding: 20px;
   width: 350px;
   height: 200px;
@@ -223,7 +223,7 @@ h2 {
 .recommendation-item,
 .testimonial-item4 {
   text-align: center;
-  background-image: url(1.jpg);
+  /* background-image: url(1.jpg); */
   padding: 20px;
   width: 350px;
   height: 200px;
